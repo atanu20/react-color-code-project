@@ -1,0 +1,22 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lora', serif;
+}
+.card{
+  border: none !important;
+  border-radius: 0;
+  width: 100%;
+  height: 200px;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+}
+.card h5{
+  color: #fff;
+  transition: 0.5s;
+}
+.card:hover h5{
+ transform: rotate(360deg);
+}
